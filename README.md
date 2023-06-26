@@ -1,4 +1,3 @@
-
 # Инструкция по запуску сервиса и взаимодействию с проектом
 ### Шаг 1: Установка зависимостей
 Убедитесь, что на вашем компьютере установлен Python.
@@ -6,25 +5,24 @@
 - Создайте новую директорию для проекта и перейдите в нее через командную строку или терминал.
 
 - Создайте виртуальное окружение Python для проекта:
-'python -m venv myenv'
+_python -m venv myenv_
 Активируйте виртуальное окружение:
 
 Для Windows:
 
 
-+ myenv\Scripts\activate
++ _myenv\Scripts\activate_
 Для macOS и Linux:
 
 
-+ source myenv/bin/activate
++ _source myenv/bin/activate_
 Создайте файл requirements.txt и добавьте следующие строки:
-
-
 fastapi
 uvicorn
+
 - Установите зависимости с помощью команды:
 
-+ pip install -r requirements.txt
++ _pip install -r requirements.txt_
 
 ### Шаг 2: Реализация и запуск сервиса
 + Создайте новый файл main.py и скопируйте в него код сервиса.
